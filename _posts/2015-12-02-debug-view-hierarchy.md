@@ -19,7 +19,7 @@ Xcode의 Debug View Hierarchy 버튼을 눌러본다.
 
 어라? 맨 앞으로 나와있네???
 그런데 크기가 이상하다.
-수퍼 뷰를 차례로 클릭해서 확인해보니 `resizesSubviews`가 `true`인 놈이 범인.
+수퍼 뷰를 차례로 클릭해서 확인해보니 `autoresizesSubviews`가 `true`인 놈이 범인.
 사건 해결!
 
 오늘의 교훈: [Debug View Hierarchy](https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/debugging_with_xcode/chapters/special_debugging_workflows.html#//apple_ref/doc/uid/TP40015022-CH9-SW2)를 잘 활용하자!
